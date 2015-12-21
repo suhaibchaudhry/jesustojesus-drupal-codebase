@@ -51,6 +51,14 @@ body {
   }
 }
 
+.region-poster-left {
+  background: url("../images/text.png");
+  height: 500px;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
 #region-user-second {
   float: left;
 }
