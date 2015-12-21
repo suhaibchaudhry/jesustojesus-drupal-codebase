@@ -5,6 +5,7 @@ engine = 'phptemplate'
 screenshot = 'screenshot.png'
 base theme = 'uitoux_theme'
 version = '1.x'
+
 regions[page_top] = 'Page Top'
 regions[page_bottom] = 'Page Bottom'
 regions[content] = 'Content'
@@ -37,7 +38,12 @@ zones[menu] = 'Menu'
 zones[preface] = 'Preface'
 zones[postscript] = 'Postscript'
 zones[footer2] = 'Footer second'
+
+css[jesus_to_jesus_style.css][name] = Jesus To Jesus theme global style.
+css[jesus_to_jesus_style.css][description] = This file holds all the globally active custom CSS of Jesus To Jesus theme.
+css[jesus_to_jesus_style.css][options][weight] = 11
 settings[alpha_css][jesus_to_jesus_style.css] = 'jesus_to_jesus_style.css'
+
 settings[alpha_css][alpha-reset.css] = 'alpha-reset.css'
 settings[alpha_css][alpha-mobile.css] = 'alpha-mobile.css'
 settings[alpha_css][alpha-alpha.css] = 'alpha-alpha.css'

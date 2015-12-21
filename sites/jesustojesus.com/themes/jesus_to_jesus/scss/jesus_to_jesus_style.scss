@@ -1,1 +1,19 @@
+@font-face {
+    font-family: 'constantineregular';
+    src: url('../constantine-webfont.eot');
+    src: url('../constantine-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../constantine-webfont.woff2') format('woff2'),
+         url('../constantine-webfont.woff') format('woff'),
+         url('../constantine-webfont.ttf') format('truetype'),
+         url('../constantine-webfont.svg#constantineregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
+}
+
+.zone-branding {
+  .region-user-first {
+      font-family: 'constantineregular';
+      font-size: 30px;
+  }
+}
