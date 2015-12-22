@@ -4,6 +4,10 @@ body {
   background: none;
 }
 
+body.not-front {
+  @include background-image(linear-gradient(to right, #230801 0%,#140700 50%,#220700 100%));
+}
+
 .zone-branding-wrapper {
   @include background-image(linear-gradient(to right, #210901 0%,#3A2212 50%,#210901 100%));
   color: #fff;
@@ -61,4 +65,91 @@ body {
 
 #region-user-second {
   float: left;
+}
+
+.section-content {
+  .zone-content {
+    background: none;
+    color: #fff;
+  }
+
+  .donate-section {
+    margin-bottom: 50px;
+    .gifts {
+      a.gift {
+        padding: 30px;
+        background: #57463B;
+        font-size: 25px;
+        color: #fff;
+        border-radius: 5px;
+        margin: .125em;
+        display: block;
+        float: left;
+        min-width: 16%;
+        text-align: center;
+        box-sizing: border-box;
+
+        &:hover {
+          color: #000;
+        }
+      }
+      a.active {
+        background: #fff;
+        color: #000;
+      }
+    }
+  }
+  .information-section {
+    .input {
+      width: 46%;
+      margin-right: 2%;
+      height: 40px;
+      border-bottom: 3px dotted #FFB784;
+      float: left;
+      font-size: 30px;
+      padding: 10px;
+      position: relative;
+
+      .placeholder, .textarea {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+      }
+      .placeholder {
+        z-index: 9;
+        color: #4A3D34;
+      }
+      .textarea {
+        z-index: 10;
+      }
+    }
+  }
+  .heading {
+    display: block;
+    clear: both;
+    font-size: 20px;
+    line-height: 60px;
+  }
+
+  a.donate-button {
+      padding: 30px 0;
+      background: #57463B;
+      font-size: 25px;
+      color: #fff;
+      border-radius: 5px;
+      margin-right: 5px;
+      display: block;
+      min-width: 10%;
+      text-align: center;
+      float: left;
+      margin-top: 60px;
+      width: 100%;
+
+      &:hover {
+        background: #fff;
+        color: #000;
+      }
+  }
 }
