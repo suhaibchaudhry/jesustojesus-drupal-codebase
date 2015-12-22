@@ -6,6 +6,8 @@ screenshot = 'screenshot.png'
 base theme = 'uitoux_theme'
 version = '1.x'
 
+regions[mosiac_left] = 'Mosaic Left'
+regions[mosaic_right] = 'Mosaic Right'
 regions[poster_left] = 'Poster Left'
 regions[poster_right] = 'Poster Right'
 regions[page_top] = 'Page Top'
@@ -41,6 +43,7 @@ zones[preface] = 'Preface'
 zones[postscript] = 'Postscript'
 zones[footer2] = 'Footer second'
 zones[poster] = 'Poster'
+zones[mosaic] = 'Mosaic'
 
 css[jesus_to_jesus_style.css][name] = Jesus To Jesus theme global style.
 css[jesus_to_jesus_style.css][description] = This file holds all the globally active custom CSS of Jesus To Jesus theme.
