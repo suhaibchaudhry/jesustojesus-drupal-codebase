@@ -47,6 +47,12 @@ css[jesus_to_jesus_style.css][description] = This file holds all the globally ac
 css[jesus_to_jesus_style.css][options][weight] = 11
 settings[alpha_css][jesus_to_jesus_style.css] = 'jesus_to_jesus_style.css'
 
+libraries[jesus_to_jesus_custom][name] = Custom Theme JS
+libraries[jesus_to_jesus_custom][description] = This file holds all the custom JS.
+libraries[jesus_to_jesus_custom][js][0][file] = jesus_to_jesus_custom.js
+libraries[jesus_to_jesus_custom][js][0][options][weight] = 15
+settings[alpha_libraries][jesus_to_jesus_custom] = 'jesus_to_jesus_custom'
+
 settings[alpha_css][alpha-reset.css] = 'alpha-reset.css'
 settings[alpha_css][alpha-mobile.css] = 'alpha-mobile.css'
 settings[alpha_css][alpha-alpha.css] = 'alpha-alpha.css'
