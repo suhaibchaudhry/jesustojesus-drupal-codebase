@@ -12,6 +12,20 @@ body.not-front {
   @include background-image(linear-gradient(to right, #210901 0%,#3A2212 50%,#210901 100%));
   color: #fff;
 
+  a.twitter-icon {
+    background: url("../images/twitter.png");
+    height:100px;
+  }
+
+  a.fbook-icon {
+    background: url("../images/fbook.png");
+  }
+
+  a.fbook-icon, a.twitter-icon {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   .zone-branding {
     a {
       color: #fff;
