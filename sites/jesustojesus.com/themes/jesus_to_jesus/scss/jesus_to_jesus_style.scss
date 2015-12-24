@@ -13,17 +13,17 @@ body.not-front {
   color: #fff;
 
   a.twitter-icon {
-    background: url("../images/twitter.png");
+    background-image: url("../images/twitter.png");
     height:100px;
   }
 
   a.fbook-icon {
-    background: url("../images/fbook.png");
+    background-image: url("../images/fbook.png");
   }
 
   a.fbook-icon, a.twitter-icon {
     background-repeat: no-repeat;
-    background-size: cover;
+    text-indent: -9999px;
   }
 
   .zone-branding {
@@ -82,6 +82,24 @@ body.not-front {
 
 #region-user-second {
   float: left;
+  background-color: transparent !important;
+
+  .content {
+    position: relative;
+    z-index: 2;
+  }
+}
+
+.page-node-1 {
+  .zone-content {
+    aside.region-sidebar-second {
+      background-color: #392111;
+
+      .region-inner {
+        padding: 10px;
+      }
+    }
+  }
 }
 
 .page-node-2 {
@@ -89,6 +107,13 @@ body.not-front {
     .zone-content {
       border-bottom: 1px solid #fff;
     }
+  }
+}
+
+.region-header-second {
+  .content {
+    position: relative;
+    z-index: 1;
   }
 }
 
@@ -134,7 +159,8 @@ body.not-front {
         margin: .125em;
         display: block;
         float: left;
-        min-width: 16%;
+        //min-width: 15%;
+        width: 19%;
         text-align: center;
         box-sizing: border-box;
 
@@ -150,9 +176,9 @@ body.not-front {
   }
   .information-section {
     .input {
-      width: 46%;
+      width: 44%;
       margin-right: 2%;
-      height: 40px;
+      height: 15px;
       float: left;
       font-size: 30px;
       padding: 10px;
@@ -170,8 +196,8 @@ body.not-front {
       .placeholder {
         z-index: 9;
         color: #868686;
-        font-size: 40px;
-        padding-left: 20px;
+        font-size: 25px;
+        padding-left: 10px;
       }
       .textarea {
         z-index: 10;
