@@ -66,6 +66,9 @@ body.not-front {
               color: #FF6000;
             }
           }
+          a.active {
+            color: #FF6000;
+          }
         }
       }
     }
@@ -258,6 +261,16 @@ body.not-front {
       .tile {
         height: 150px;
         margin: 10px;
+        position: relative;
+
+        a {
+          position: absolute;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          top: 0;
+          text-indent: -9999px;
+        }
       }
 
       .small-tile {
@@ -287,5 +300,25 @@ body.not-front {
         background-position: center;
       }
     }
+  }
+}
+
+.view-team-members {
+  .views-field-field-team-member-name {
+    font-size: 20px;
+    border-bottom: 1px solid #fff;
+  }
+
+  .views-field-field-team-member-title {
+    margin: 5px 0;
+    font-style: italic;
+  }
+
+  .views-row {
+    margin: 0 0 20px;
+  }
+
+  .view-content {
+    padding: 0 0 0 10px;
   }
 }
