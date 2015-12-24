@@ -180,10 +180,10 @@ body.not-front {
       margin-right: 2%;
       height: 15px;
       float: left;
-      font-size: 30px;
+      font-size: 25px;
       padding: 10px;
       position: relative;
-      background: #fff;
+      background: rgba(255, 255, 255, 0.07);;
       margin: 10px;
 
       .placeholder, .textarea {
@@ -192,15 +192,17 @@ body.not-front {
         right: 0;
         bottom: 0;
         left: 0;
+        padding-left: 10px;
       }
       .placeholder {
         z-index: 9;
         color: #868686;
-        font-size: 25px;
-        padding-left: 10px;
+        font-style: italic;
       }
       .textarea {
         z-index: 10;
+        color: #fff;
+
       }
     }
   }
